@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textAlum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar_alumno"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/side_nav_bar"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/matricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/matr_cula"
+            android:inputType="text"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nombreAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/nombre_s"
+            android:inputType="textPersonName"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/apellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/apellidos"
+            android:inputType="textPersonName"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/edad"
+            android:inputType="textPersonName"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/serialAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:hint="@string/serial"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonRegistrarAlum"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:background="?attr/colorButtonNormal"
+        android:text="@string/registrar_alumno"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        android:id="@+id/buttonListarAlum"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:background="?attr/colorButtonNormal"
+        android:text="@string/lista_de_alumnos"
+        android:textColor="@android:color/holo_blue_dark" />
+    <!--android:onClick="irregistro"-->
+
+    <Button
+        android:id="@+id/buttonPpal"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:background="?attr/colorButtonNormal"
+        android:onClick="irregistro"
+        android:text="@string/ir_registro"
+        android:textColor="@android:color/holo_blue_dark" />
+
+
+</LinearLayout>

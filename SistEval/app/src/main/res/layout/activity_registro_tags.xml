@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.malibuzee.sisteval.activities.RegistroTags">
+
+    <TextView
+        android:id="@+id/IdControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="REGISTRO DE TAGS"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/IdControl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/IdControl"
+        android:text="Pasa la etiqueta por el RFID"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/IdBufferIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/IdControl2"
+        android:layout_below="@+id/IdControl2"
+        android:layout_marginTop="49dp"
+        android:text="SN"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/IdDesconectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:text="DESCONECTAR" />
+
+    <EditText
+        android:id="@+id/IdName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/IdBufferIn"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/IdNomObj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/IdName"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:text="Nombre Objeto:"
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHint="@color/cardview_dark_background" />
+
+    <Button
+        android:id="@+id/idButtonReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IdName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="REGISTRAR" />
+
+    <!-- <Button
+         android:id="@+id/IdButtonEdit"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignStart="@+id/idButtonReg"
+         android:layout_below="@+id/idButtonReg"
+         android:layout_marginTop="15dp"
+         android:text="EDITAR" />
+
+     <Button
+         android:id="@+id/idButtonDelet"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/IdButtonEdit"
+         android:layout_alignBottom="@+id/IdButtonEdit"
+         android:layout_toStartOf="@+id/IdName"
+         android:text="ELIMINAR" />-->
+
+    <Button
+        android:id="@+id/idButtonBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idButtonReg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="BUSCAR" />
+
+</RelativeLayout>

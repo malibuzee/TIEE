@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="momentos">
+        <item>Momento 1</item>
+        <item>Momento 2</item>
+        <item>Momento 3</item>
+    </string-array>
+
+    <string-array name="objetos">
+        <item>Objeto 1</item>
+        <item>Objeto 2</item>
+        <item>Objeto 3</item>
+    </string-array>
+
+</resources>

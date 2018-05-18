@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/asistencia"
+            android:icon="@drawable/asistenciaalum2"
+            android:title="Asistencia" />
+        <item
+            android:id="@+id/activities"
+            android:icon="@drawable/actividades1"
+            android:title="Actividades" />
+        <item
+            android:id="@+id/evaluation"
+            android:icon="@drawable/evaluacion"
+            android:title="Evaluación" />
+
+    </group>
+
+    <item android:title="Registro de:">
+        <menu>
+            <item
+                android:id="@+id/users"
+                android:icon="@drawable/alumno1"
+                android:title="Alumnos" />
+            <item
+                android:id="@+id/tags"
+                android:icon="@drawable/tag1"
+                android:title="Tags" />
+            <item
+                android:id="@+id/create_activities"
+                android:icon="@drawable/chair_school"
+                android:title="Actividades"/>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

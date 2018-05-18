@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Contenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.malibuzee.sisteval.activities.MenuOpciones"
+    tools:showIn="@layout/app_bar_menu_opciones">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/IdTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/sistema_generador_de_contenidos_y_evaluaci_n_para_el_nivel_preescolar"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bienvenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:paddingBottom="20dp"
+            android:text="@string/bienvenida"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nEsc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/escuela"
+            android:textColor="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/nDocente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/docente"
+            android:textColor="@color/cardview_dark_background" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/IdDescrip"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/con_este_sistema_podr_el_docente_llevar_a_cabo_el_seguimiento_de_aprendizajes_de_estudiantes_de_3er_grado_del_nivel_preescolar"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="163dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/conacyt" android:contentDescription="@string/todo" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="138dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/uagro" android:contentDescription="@string/todo" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="149dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/miidt" android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+
+</LinearLayout>
